@@ -77,7 +77,7 @@ h1, h2, h3, h4, h5, h6, p {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 1px2px 0 rgba(16, 24, 40, 0.95);
+    box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.95);
     gap: 16px;
 }
 /*Hover effect for Github button*/
@@ -112,7 +112,7 @@ h3 {
 /* Paragraphs text large, medium and small*/
 /*Body 1*/
 .text-lg {
-    color:color var(--darkblue);
+    color: var(--darkblue);
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -121,7 +121,7 @@ h3 {
 
 /*Body 2*/
 .text-md {
-    color:color var(--darkblue);
+    color: var(--darkblue);
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -130,7 +130,7 @@ h3 {
 
 /*Body 3*/
 .text-sm{
-    color:color var(--black);
+    color: var(--black);
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -167,7 +167,7 @@ h3 {
     align-items: center;
     padding: 15px 85.333px;
     background: var(--white);
-    box-shadow: 0px 5.333px 80 px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5.333px 80px 0 rgba(0, 0, 0, 0.1);
     position: fixed;
     top: 0;
     left: 0;
@@ -193,7 +193,7 @@ h3 {
 }
 
 .navbar--active--content{
-    color: var(--priamry);
+    color: var(--primary);
 }
 
 /*!!!!!!!HERO SECTION STYLING STARTS HERE!!!!!!!!*/
@@ -208,7 +208,7 @@ h3 {
     background-color: var(--bg-shade);
 }
 
-/*Content box inside hero section(buttons and text on the left)*/
+/*Smaller spacing for content box inside hero section for mobile*/
 .hero--section--content-box{
     display: flex;
     flex-direction: column;
@@ -216,8 +216,8 @@ h3 {
     gap: 32px;
 }
 
-/*Smaller spacing for content box inside hero section for mobile*/
-.hero--section--content-box{
+/*Content box inside hero section(buttons and text on the left)*/
+.hero--section--content{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -225,8 +225,8 @@ h3 {
 }
 
 /*Button spacing inside hero section*/
-.hero--section--content--box > button{
-    margin-top: 21.333px;
+.hero--section--content--box > button {
+    margin-top: 40px;
 }
 
 /*Headline title inside hero section*/
@@ -244,11 +244,11 @@ h3 {
 }
 
 /*Hero section description text*/
-.hero--section-description{
-    color: var(--darblue);
+.hero--section--description{
+    color: var(--darkblue);
     font-size: 24px;
-    font-weiht: 400;
-    font-height: 36px;
+    font-weight: 400;
+    line-height: 36px;
 }
 
 /*Hero image container*/
@@ -263,3 +263,74 @@ h3 {
 }
 
 /*Hero Section Styling Ends Here*/
+
+/*!!!!!!!!SKILLS SECTION STYLING STARTS HERE!!!!!!!!!!!*/
+
+.skills--section{
+    display: flex;
+    padding: 149.33px 85.33px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 106.677px;
+}
+
+.skills--section--heading{
+    color: var(--heading-color);
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77px;
+}
+
+.skills--section--container{
+    display: grid;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 42.6px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.skills--section--card{
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex: 1 0 0;
+    border-radius: 10.6px;
+    background: var(--bg-shade);
+    min-height: 250px;
+}
+
+.skills--section--card:hover{
+    border-bottom: 4px solid var(--primary);
+}
+
+.skills--section--card:hover .skills--section--description{
+    border-bottom: 4px solid var(--darkblue);
+}
+
+.skills--section--img{
+    display: flex;
+    padding: 13.3px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10.6px;
+    background: #fff;
+    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
+}
+
+.skills--section--title{
+    color: var(--heading-color);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+.skills--section--description{
+    color: var(--black);
+    font-size: 21.3px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
