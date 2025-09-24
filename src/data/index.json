@@ -2,27 +2,27 @@
     "skills":[
         {
             "id": "1",
-            "src": "./img/product-chain-1.png",
+            "src": "/img/Github Logo.png",
             "title": "Front-End",
-            "Description": "lorem ipsum jlshajhdakjhdjlshdjaiuduioashdjgaipudgousadipuagpiusdpiuagdpiuhaiupdgoiuahgdiugh auoisdhiuagdouhaioduphapouhdpouahdpoushapoudhpouashad"
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta saepe hic labore quas sequi, reiciendis expedita asperiores sunt vitae placeat suscipit, dolores molestiae beatae accusantium quae, ut a fugit odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur excepturi officiis, aliquam quibusdam velit expedita praesentium ut facilis iure dolore consequatur? Error soluta ducimus nihil. In aperiam culpa nulla autem?"
         },
         {
             "id": "2",
-            "src": "./img/tag-1.png",
+            "src": "/img/Github Logo.png",
             "title": "Back-End",
-            "Description": "lorem ipsum jlshajhdakjhdjlshdjaiuduioashdjgaipudgousadipuagpiusdpiuagdpiuhaiupdgoiuahgdiugh auoisdhiuagdouhaioduphapouhdpouahdpoushapoudhpouashad"
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta saepe hic labore quas sequi, reiciendis expedita asperiores sunt vitae placeat suscipit, dolores molestiae beatae accusantium quae, ut a fugit odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur excepturi officiis, aliquam quibusdam velit expedita praesentium ut facilis iure dolore consequatur? Error soluta ducimus nihil. In aperiam culpa nulla autem?"
         },
         {
             "id": "3",
-            "src": "./img/feather-pen-2.png",
+            "src": "/img/Github Logo.png",
             "title": "UI & UX Design",
-            "Description": "lorem ipsum jlshajhdakjhdjlshdjaiuduioashdjgaipudgousadipuagpiusdpiuagdpiuhaiupdgoiuahgdiugh auoisdhiuagdouhaioduphapouhdpouahdpoushapoudhpouashad"
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta saepe hic labore quas sequi, reiciendis expedita asperiores sunt vitae placeat suscipit, dolores molestiae beatae accusantium quae, ut a fugit odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur excepturi officiis, aliquam quibusdam velit expedita praesentium ut facilis iure dolore consequatur? Error soluta ducimus nihil. In aperiam culpa nulla autem?"
         },
         {
             "id": "4",
-            "src": "./img/feather-pen-1.png",
+            "src": "/img/Github Logo.png",
             "title": "Webflow Development",
-            "Description": "lorem ipsum jlshajhdakjhdjlshdjaiuduioashdjgaipudgousadipuagpiusdpiuagdpiuhaiupdgoiuahgdiugh auoisdhiuagdouhaioduphapouhdpouahdpoushapoudhpouashad"
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta saepe hic labore quas sequi, reiciendis expedita asperiores sunt vitae placeat suscipit, dolores molestiae beatae accusantium quae, ut a fugit odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur excepturi officiis, aliquam quibusdam velit expedita praesentium ut facilis iure dolore consequatur? Error soluta ducimus nihil. In aperiam culpa nulla autem?"
         }
     ]
 }

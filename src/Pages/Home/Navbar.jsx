@@ -35,7 +35,7 @@ function Navbar(){
      return (
         <nav className = {`navbar ${navActive ? "active" : ""}`}>
         <div>
-        <img src="./img/logo.svg" alt="Logo" />
+        <img src="/img/Centennial_College_Logo.jpg" alt="Logo" />
         </div>
         <a 
         className={`nav_hamburger ${navActive ? "active" : ""}`} 
@@ -62,6 +62,20 @@ function Navbar(){
                 className="navbar--content"
                 >
                 Home
+                </Link>
+            </li>
+            <li>
+                <Link 
+                onClick={closeMenu}
+                activeClass="nvbar--active--content"
+                spy={true}
+                smooth={true}
+                offcet={-70}
+                duration={500}
+                to="skills--section"
+                className="navbar--content"
+                >
+                MySkills
                 </Link>
             </li>
             <li>

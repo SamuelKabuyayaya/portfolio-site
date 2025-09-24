@@ -272,7 +272,7 @@ h3 {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 106.677px;
+    gap: 106.667px;
 }
 
 .skills--section--heading{
@@ -307,7 +307,7 @@ h3 {
 }
 
 .skills--section--card:hover .skills--section--description{
-    border-bottom: 4px solid var(--darkblue);
+    border-bottom: var(--darkblue);
 }
 
 .skills--section--img{
@@ -318,6 +318,14 @@ h3 {
     border-radius: 10.6px;
     background: #fff;
     box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
+}
+
+.skills--section--card--content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
 }
 
 .skills--section--title{
