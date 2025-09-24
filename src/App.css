@@ -8,16 +8,10 @@ body {
     font-style: normal;
 }
 
-h1, 
-h2, 
-h3, 
-h4, 
-h5, 
-h6, 
-p {
+h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
-
+/*Custom variables that I  used across the entire site for colors and whatever*/
 :root {
     --primary: #5e3bee;
     --heading-color: #282938;
@@ -28,6 +22,7 @@ p {
     --white: #ffffff; 
 }
 
+/*Button styling*/
 .btn{
     font-family: "Roboto";
     display: inline-block;
@@ -51,28 +46,29 @@ p {
     -o-transition: background-color 0.5s;
 }
 
+/*Button with transparent bg and coloured border*/
 .btn-outline-primary{
     color: var(--primary);
     background-color: var(--white);
     border: 1px solid var(--primary);
 }
-
+/*Hover effect for outline button*/
 .btn-outline-primary:hover{
     color: var(--white);
     background-color: var(--primary);
 }
-
+/*Button with filled bg*/
 .btn-primary{
     color: var(--white);
     background-color: var(--primary);
     border: 1px solid var(--primary);
 }
-
+/*Hover effect for filled button*/
 .btn-primary:hover{
     color: var(--primary);
     background-color: var(--white);
 }
-
+/*Specific style for my Github button*/
 .btn-github{
     color: var(--white);
     background-color: var(--github);
@@ -84,13 +80,13 @@ p {
     box-shadow: 0 1px2px 0 rgba(16, 24, 40, 0.95);
     gap: 16px;
 }
-
+/*Hover effect for Github button*/
 .btn-github:hover{
     color: var(--github);
     background-color: var(--white);
 }
 
-/*GLobal Section CSS Ends here*/
+/*Global Section CSS Ends here*/
 
 /*Heading 1*/
 h1 {
@@ -163,7 +159,45 @@ h3 {
 }
 /**Section Titles End Here*/
 
-/*Hero Section Styling Starts Here*/
+
+/*!!!!!!!!!!NAVIGATION BAR STARTS HERE!!!!!!!!!!*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 85.333px;
+    background: var(--white);
+    box-shadow: 0px 5.333px 80 px 0 rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.navbar--items > ul{
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    gap: 42px;
+    text-decoration: none;
+}
+
+
+.navbar--content {
+    color: var(--darkblue);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.navbar--active--content{
+    color: var(--priamry);
+}
+
+/*!!!!!!!HERO SECTION STYLING STARTS HERE!!!!!!!!*/
+/*Intro section on homepage*/
 .hero--section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -174,6 +208,7 @@ h3 {
     background-color: var(--bg-shade);
 }
 
+/*Content box inside hero section(buttons and text on the left)*/
 .hero--section--content-box{
     display: flex;
     flex-direction: column;
@@ -181,6 +216,7 @@ h3 {
     gap: 32px;
 }
 
+/*Smaller spacing for content box inside hero section for mobile*/
 .hero--section--content-box{
     display: flex;
     flex-direction: column;
@@ -188,9 +224,12 @@ h3 {
     gap: 21.333px;
 }
 
+/*Button spacing inside hero section*/
 .hero--section--content--box > button{
     margin-top: 21.333px;
 }
+
+/*Headline title inside hero section*/
 .hero--section--title{
     color: var(--heading-color);
     font-size: 74.667px;
@@ -199,10 +238,12 @@ h3 {
     align-self: stretch;
 }
 
+/*Colour for primary text inside hero section(rn its blue but might change for centennial colour scheme later on. We will see)*/
 .hero--section--title--color{
     color:var(--primary);
 }
 
+/*Hero section description text*/
 .hero--section-description{
     color: var(--darblue);
     font-size: 24px;
@@ -210,10 +251,12 @@ h3 {
     font-height: 36px;
 }
 
+/*Hero image container*/
 .hero--section--img{
     display: flex;
 }
 
+/*Hero image sizing*/
 .hero--section--img > img{
     width: 100%;
     height: 100%;
