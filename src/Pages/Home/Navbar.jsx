@@ -67,7 +67,7 @@ function Navbar(){
             <li>
                 <Link 
                 onClick={closeMenu}
-                activeClass="nvbar--active--content"
+                activeClass="navbar--active--content"
                 spy={true}
                 smooth={true}
                 offcet={-70}
@@ -75,21 +75,21 @@ function Navbar(){
                 to="skills--section"
                 className="navbar--content"
                 >
-                MySkills
+                My Skills
                 </Link>
             </li>
             <li>
                 <Link 
                 onClick={closeMenu}
-                activeClass="nvbar--active--content"
+                activeClass="navbar--active--content"
                 spy={true}
                 smooth={true}
                 offcet={-70}
                 duration={500}
-                to="MyPortfolio"
+                to="projects--section"
                 className="navbar--content"
                 >
-                Portfolio
+                Projects
                 </Link>
             </li>
             <li>
@@ -114,10 +114,10 @@ function Navbar(){
                 smooth={true}
                 offcet={-70}
                 duration={500}
-                to="Testimonials"
+                to="education--section"
                 className="navbar--content"
                 >
-                Testimonials
+                Education
                 </Link>
             </li>
         </ul>

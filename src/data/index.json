@@ -24,5 +24,25 @@
             "title": "Webflow Development",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta saepe hic labore quas sequi, reiciendis expedita asperiores sunt vitae placeat suscipit, dolores molestiae beatae accusantium quae, ut a fugit odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur excepturi officiis, aliquam quibusdam velit expedita praesentium ut facilis iure dolore consequatur? Error soluta ducimus nihil. In aperiam culpa nulla autem?"
         }
+    ],
+    "projects":[
+        {
+            "id": "1",
+            "src": "/img/Github Logo.png",
+            "title": "Front-End",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta saepe hic labore quas sequi, reiciendis expedita asperiores sunt vitae placeat suscipit, dolores molestiae beatae accusantium quae, ut a fugit odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur excepturi officiis, aliquam quibusdam velit expedita praesentium ut facilis iure dolore consequatur? Error soluta ducimus nihil. In aperiam culpa nulla autem?"
+        },
+        {
+            "id": "2",
+            "src": "/img/Github Logo.png",
+            "title": "Back-End",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta saepe hic labore quas sequi, reiciendis expedita asperiores sunt vitae placeat suscipit, dolores molestiae beatae accusantium quae, ut a fugit odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur excepturi officiis, aliquam quibusdam velit expedita praesentium ut facilis iure dolore consequatur? Error soluta ducimus nihil. In aperiam culpa nulla autem?"
+        },
+        {
+            "id": "3",
+            "src": "/img/Github Logo.png",
+            "title": "UI & UX Design",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta saepe hic labore quas sequi, reiciendis expedita asperiores sunt vitae placeat suscipit, dolores molestiae beatae accusantium quae, ut a fugit odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur excepturi officiis, aliquam quibusdam velit expedita praesentium ut facilis iure dolore consequatur? Error soluta ducimus nihil. In aperiam culpa nulla autem?"
+        }
     ]
 }
