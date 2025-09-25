@@ -28,21 +28,24 @@
     "projects":[
         {
             "id": "1",
-            "src": "/img/Github Logo.png",
+            "src": "/img/Project1.png",
             "title": "Front-End",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta saepe hic labore quas sequi, reiciendis expedita asperiores sunt vitae placeat suscipit, dolores molestiae beatae accusantium quae, ut a fugit odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur excepturi officiis, aliquam quibusdam velit expedita praesentium ut facilis iure dolore consequatur? Error soluta ducimus nihil. In aperiam culpa nulla autem?"
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta saepe hic labore quas sequi, reiciendis expedita asperiores sunt vitae placeat suscipit, dolores molestiae beatae accusantium quae, ut a fugit odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur excepturi officiis, aliquam quibusdam velit expedita praesentium ut facilis iure dolore consequatur? Error soluta ducimus nihil. In aperiam culpa nulla autem?",
+            "link": "View in Github"
         },
         {
             "id": "2",
-            "src": "/img/Github Logo.png",
+            "src": "/img/Project2.png",
             "title": "Back-End",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta saepe hic labore quas sequi, reiciendis expedita asperiores sunt vitae placeat suscipit, dolores molestiae beatae accusantium quae, ut a fugit odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur excepturi officiis, aliquam quibusdam velit expedita praesentium ut facilis iure dolore consequatur? Error soluta ducimus nihil. In aperiam culpa nulla autem?"
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta saepe hic labore quas sequi, reiciendis expedita asperiores sunt vitae placeat suscipit, dolores molestiae beatae accusantium quae, ut a fugit odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur excepturi officiis, aliquam quibusdam velit expedita praesentium ut facilis iure dolore consequatur? Error soluta ducimus nihil. In aperiam culpa nulla autem?",
+            "link": "View in Github"
         },
         {
             "id": "3",
-            "src": "/img/Github Logo.png",
+            "src": "/img/Project3.png",
             "title": "UI & UX Design",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta saepe hic labore quas sequi, reiciendis expedita asperiores sunt vitae placeat suscipit, dolores molestiae beatae accusantium quae, ut a fugit odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur excepturi officiis, aliquam quibusdam velit expedita praesentium ut facilis iure dolore consequatur? Error soluta ducimus nihil. In aperiam culpa nulla autem?"
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta saepe hic labore quas sequi, reiciendis expedita asperiores sunt vitae placeat suscipit, dolores molestiae beatae accusantium quae, ut a fugit odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur excepturi officiis, aliquam quibusdam velit expedita praesentium ut facilis iure dolore consequatur? Error soluta ducimus nihil. In aperiam culpa nulla autem?",
+            "link": "View in Github"
         }
     ]
 }
