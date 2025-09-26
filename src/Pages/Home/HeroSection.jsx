@@ -10,10 +10,13 @@ export default function HeroSection() {
                 </h1>
                 <p className="hero--section--description">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta saepe hic labore quas sequi, reiciendis expedita asperiores sunt vitae placeat suscipit, dolores molestiae beatae accusantium quae, ut a fugit odio.
-                    <br />Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur excepturi officiis, aliquam quibusdam velit expedita praesentium ut facilis iure dolore consequatur? Error soluta ducimus nihil. In aperiam culpa nulla autem?
+                    <br />
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur excepturi officiis, aliquam quibusdam velit expedita praesentium ut facilis iure dolore consequatur? Error soluta ducimus nihil. In aperiam culpa nulla autem?
                 </p>
             </div>
-            <button className="btn btn-primary">Get in touch</button>
+            <a href="#Contact" className="btn btn-primary">
+                Contact Me
+            </a>
         </div>
         <div className="hero--section--image">
             <img src="/img/fox.png" alt="Hero Section" />.
