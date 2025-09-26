@@ -1,19 +1,20 @@
 import HeroSection from "../HeroSection";
-import MySkills from "../MySkills";
 import AboutMe from "../AboutMe";
+import MySkills from "../MySkills";
 import Projects from "../Projects";
-import ContactMe from "../ContactMe"
+import Education from "../Education";
+import ContactMe from "../ContactMe";
 
 
 export default function Home () {
     return(
         <>
            <HeroSection/>
+           <AboutMe/> 
            <MySkills/>
-           <AboutMe/>
            <Projects/>
+           <Education/>
            <ContactMe/>
-
         </>
     )
 }
