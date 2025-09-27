@@ -9,9 +9,9 @@ export default function Services() {
                     <div className="services--section--icon">
                         <img src="/img/Github Logo.png" alt="Frontend Development" />
                     </div>
-                    <h3 className="services--section--title">Frontend Development</h3>
+                    <h3 className="services--section--title">Basic Programming Projects</h3>
                     <p className="services--section--description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore omnis qui modi hic neque rem, error molestiae harum corrupti, aliquam nobis nam saepe dolore maiores et. Consequatur in sit minima!
+                        I can create small to medium-sized programming projects in languages like C#, Python, and Java. These projects may include console applications, data storage tools, OOP or small interactive programs.
                     </p>
                 </div>
 
@@ -19,9 +19,9 @@ export default function Services() {
                     <div className="services--section--icon">
                         <img src="/img/Github Logo.png" alt="Frontend Development" />
                     </div>
-                    <h3 className="services--section--title">Frontend Development</h3>
+                    <h3 className="services--section--title">Web Development Basics</h3>
                     <p className="services--section--description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore omnis qui modi hic neque rem, error molestiae harum corrupti, aliquam nobis nam saepe dolore maiores et. Consequatur in sit minima!
+                        I offer help in creating simple web pages using HTML, CSS, and basic JavaScript. This includes building structured layouts, adding forms, and linking external stylesheets. 
                     </p>
                 </div>
 
@@ -29,9 +29,9 @@ export default function Services() {
                     <div className="services--section--icon">
                         <img src="/img/Github Logo.png" alt="Frontend Development" />
                     </div>
-                    <h3 className="services--section--title">Frontend Development</h3>
+                    <h3 className="services--section--title">3D modelling in Blender</h3>
                     <p className="services--section--description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore omnis qui modi hic neque rem, error molestiae harum corrupti, aliquam nobis nam saepe dolore maiores et. Consequatur in sit minima!
+                        I can design simple 3D models using Blender, ranging from objects to basic scenes. With over 70 hours of practice, I understand the fundamentals of creating, texturing, and adjusting models. 
                     </p>
                 </div>
             </div>

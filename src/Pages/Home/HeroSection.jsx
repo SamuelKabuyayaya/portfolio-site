@@ -5,12 +5,10 @@ export default function HeroSection() {
                 <h1 className="hero--section--title">
                     <span className="hero--section--title--color">Samuel Kabuya</span>{" "}
                     <br />
-                    Second Year of Education
+                    Building my skills.
                 </h1>
                 <p className="hero--section--description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta saepe hic labore quas sequi, reiciendis expedita asperiores sunt vitae placeat suscipit, dolores molestiae beatae accusantium quae, ut a fugit odio.
-                    <br />
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur excepturi officiis, aliquam quibusdam velit expedita praesentium ut facilis iure dolore consequatur? Error soluta ducimus nihil. In aperiam culpa nulla autem?
+                    I am a student at Centennial Currently, pursuing programming, and although I am still fairly new to the field, I have already gained solid foundations in different programming languages and concepts. Programming has been my focus for the past 2 years, and I've grown comfortable with writing code and solving problems, even though I can't solve them all. Therefore, I need to get more practice and smarter to become a better programmer.
                 </p>
             </div>
             <a href="#Contact" className="btn btn-primary">

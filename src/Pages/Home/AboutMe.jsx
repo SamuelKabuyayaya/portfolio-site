@@ -7,17 +7,12 @@ export default function AboutMe() {
             <div className="hero-section--content--box about--section--box">
                 <div className="hero-section--content">
                     <h1 className="about-section--heading">Who am I?</h1>
-                    <p className="section--title">About me</p>
+                    <p className="section--title">A little bit about me.</p>
                     <p className="hero--section--description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Cumque unde, sunt id quia, consequatur ipsam assumenda aspernatur 
-                        laborum obcaecati magnam pariatur cum culpa consectetur necessitatibus, 
-                        reiciendis corporis! Nesciunt, quidem culpa.
+                        I am someone who enjoys solving problems with code and finding ways to use technology to make different things, from coding to 3d models. While I am still in early stages of my programming career,I already explored things like console programming, desktop apps and 3D modelling.
                     </p>
                     <p className="hero--section--description">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                        Ratione dolores rem aperiam sit labore laboriosam deserunt sunt nulla. 
-                        Nam, esse maxime necessitatibus illo libero deserunt adipisci? Voluptatibus repellat dolores optio.
+                        My ultimate goal is to experiment with knowledge I have and improve as time goes on. In the future, I want to build many different things and learning how to code will be very handy
                     </p>
                 </div>
             </div>

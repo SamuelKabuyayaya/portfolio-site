@@ -3,7 +3,7 @@ export default function ContactMe(){
         <section id="Contact" className="contact--section">
             <div>
                 <h2 className="contact--section--heading">Contact Me</h2>
-                <p className="contact--sub--title">Get In Touch</p>
+                <p className="contact--sub--title">What do you need help with?</p>
             </div>
             <form className="contact--form--container">
                 <div className="contact--container">
@@ -52,9 +52,9 @@ export default function ContactMe(){
                         <span className="text-md">Choose Topic</span>
                         <select id="choose-topic" className="contact--input text-md">
                             <option>Select One...</option>
-                            <option>Item 1</option>
-                            <option>Item 2</option>
-                            <option>Item 3</option>
+                            <option>Basic Programming Projects</option>
+                            <option>Web Development Basics</option>
+                            <option>3D modelling in Blender</option>
                         </select>
                     </label>
                     <label htmlFor="message" className="contact--label">
