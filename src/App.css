@@ -198,6 +198,8 @@ h3 {
     color: var(--primary);
 }
 
+/*!!!!!!!!!!NAVIGATION BAR ENDS HERE!!!!!!!!!!*/
+
 /*!!!!!!!HERO SECTION STYLING STARTS HERE!!!!!!!!*/
 /*Intro section on HeroSection*/
 .hero--section {
@@ -265,7 +267,7 @@ h3 {
     height: 100%;
 }
 
-/*Hero Section Styling Ends Here*/
+/*!!!!!!!!!!HERO SECTION ENDS HERE!!!!!!!!!!*/
 
 /*!!!!!!!!SKILLS SECTION STYLING STARTS HERE!!!!!!!!!!!*/
 
@@ -358,9 +360,9 @@ h3 {
     font-weight: 400;
     line-height: 32px;
 }
-/*Skills styles ends Here*/
+/*!!!!!!!!!!SKILLS SECTION ENDS HERE!!!!!!!!!!*/
 
-/*About Me Section*/
+/*!!!!!!!!!!ABOUT ME SECTION STARTS HERE!!!!!!!!!!*/
 .about--section{
     display: grid;
     padding: 133.3px 85.3px;
@@ -380,9 +382,9 @@ h3 {
     width: 100%;
     height: 100%;
 }
-/*About Us ends here*/
+/*!!!!!!!!!!ABOUT ME SECTION ENDS HERE!!!!!!!!!!*/
 
-/*My Projects Section starts here*/
+/*!!!!!!!!!!MY PROJECTS SECTION STARTS HERE!!!!!!!!!!*/
 .projects--section{
     display: flex;
     padding: 112px 85px;
@@ -462,9 +464,9 @@ h3 {
 .projects--section--card:hover path{
     stroke: #006b6a;
 }
-/*Projects section end*/
+/*!!!!!!!!!!PROJECT SECTION ENDS HERE!!!!!!!!!!*/
 
-/*Education section starts here*/
+/*!!!!!!!!!!EDUCATION SECTION STARTS HERE!!!!!!!!!!*/
 .education--section{
     display: flex;
     padding: 150px 85px;
@@ -528,7 +530,9 @@ h3 {
 
 }
 
-/*Services Section Starts Here*/
+/*!!!!!!!!!!EDUCATION SECTION ENDS HERE!!!!!!!!!!*/
+
+/*!!!!!!!!!!SERVICES SECTION STARTS HERE!!!!!!!!!!*/
 
 .services--section{
     display: flex;
@@ -591,8 +595,10 @@ h3 {
     color: var(--darkblue);
 }
 
+/*!!!!!!!!!!SERVICES SECTION ENDS HERE!!!!!!!!!!*/
 
-/*Contact section starts here*/
+
+/*!!!!!!!!!!CONTACT SECTION STARTS HERE!!!!!!!!!!*/
 .contact--section{
     display: flex;
     padding: 150px 85px;
@@ -689,7 +695,7 @@ input[type="checkbox"]{
     border-radius: 0.15em;
     transform: none;
 }
-/*Contact section ends here*/
+/*!!!!!!!!!!CONTACT SECTION ENDS HERE!!!!!!!!!!*/
 
 
 
