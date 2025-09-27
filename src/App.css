@@ -275,7 +275,7 @@ h3 {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 106.667px;
+    gap: 60px;
 }
 
 .skills--section--heading{
@@ -283,6 +283,16 @@ h3 {
     font-size: 64px;
     font-weight: 700;
     line-height: 77px;
+}
+
+.skills--section--subtitle{
+    color: var(--heading-color);
+    font-size: 21px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    display: flex;
+    align-items: flex-start;
 }
 
 .skills--section--container{

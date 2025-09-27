@@ -1,58 +1,19 @@
-import {useState, useEffect} from "react";
+//displays the navigation bar with links to different sections of the site
 import {Link} from "react-scroll";
 
 function Navbar(){
-    const [navActive, setNavActive] = useState(false);
-
-    const toggleNav = () => {
-        setNavActive(!navActive);
-    }
-
-    const closeMenu = () => {
-        setNavActive(false);
-    }
-    
-    useEffect(() => {
-        const handleResize = () =>{
-            if (window.innerWidth <= 500){
-                closeMenu();
-            }
-        }
-
-        window.addEventListener("resize", handleResize);
-
-            return() => {
-                window.removeEventListener("resize", handleResize);
-            };
- }, []);
-
-    useEffect(() => {
-            if (window.innerWidth <= 1200){
-                closeMenu();
-            }
- }, []);
-
      return (
-        <nav className = {`navbar ${navActive ? "active" : ""}`}>
+        <nav className = "navbar">
         <div>
+            {/*Logo in task Bar */}
         <img src="/img/Centennial_College_Logo.jpg" alt="Logo" />
         </div>
-        <a 
-        className={`nav_hamburger ${navActive ? "active" : ""}`} 
-        onClick={toggleNav}
-        >
-            <span className = "nav_hamburger_line">
-            </span>
-            <span className = "nav_hamburger_line">
-            </span>
-            <span className = "nav_hamburger_line">
-            </span>
-        </a>
-        <div className={`navbar--items ${navActive ? "active" : ""}`}>
+       
+        {/*Navbar Links*/}
+        <div className="navbar--items">
         <ul>
             <li>
                 <Link 
-                onClick={closeMenu}
                 activeClass="navbar--active--content"
                 spy={true}
                 smooth={true}
@@ -66,7 +27,6 @@ function Navbar(){
             </li>
             <li>
                 <Link 
-                onClick={closeMenu}
                 activeClass="navbar--active--content"
                 spy={true}
                 smooth={true}
@@ -80,7 +40,6 @@ function Navbar(){
             </li>
             <li>
                 <Link 
-                onClick={closeMenu}
                 activeClass="navbar--active--content"
                 spy={true}
                 smooth={true}
@@ -94,7 +53,6 @@ function Navbar(){
             </li>
             <li>
                 <Link 
-                onClick={closeMenu}
                 activeClass="navbar--active--content"
                 spy={true}
                 smooth={true}
@@ -108,7 +66,6 @@ function Navbar(){
             </li>
             <li>
                 <Link 
-                onClick={closeMenu}
                 activeClass="navbar--active--content"
                 spy={true}
                 smooth={true}
@@ -122,7 +79,6 @@ function Navbar(){
             </li>
             <li>
                 <Link 
-                onClick={closeMenu}
                 activeClass="navbar--active--content"
                 spy={true}
                 smooth={true}
@@ -138,8 +94,8 @@ function Navbar(){
         
 
         </div>
+        {/*Contact button on the right side of the navigation bar*/}
         <Link
-                onClick={closeMenu}
                 activeClass="navbar--active--content"
                 spy={true}
                 smooth={true}

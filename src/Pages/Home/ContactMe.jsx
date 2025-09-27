@@ -1,11 +1,19 @@
+//This displays the "Contact Me" section with a for for user input
 export default function ContactMe(){
     return (
+        //section container with id for easy css styling and navigation
         <section id="Contact" className="contact--section">
+
+            {/*Heading and subtitle*/}
             <div>
                 <h2 className="contact--section--heading">Contact Me</h2>
                 <p className="contact--sub--title">What do you need help with?</p>
             </div>
+
+            {/*Form container*/}
             <form className="contact--form--container">
+
+                {/*Name, email and phone number*/}
                 <div className="contact--container">
                     <label htmlFor="first-name" className="contact--label">
                         <span className="text-md">First Name</span>
@@ -48,6 +56,8 @@ export default function ContactMe(){
                         />
                     </label>
                 </div>
+
+                {/*Dropdown for choosing a topic*/}
                 <label htmlFor="choose-topic" className="contact--label">
                         <span className="text-md">Choose Topic</span>
                         <select id="choose-topic" className="contact--input text-md">
@@ -57,6 +67,8 @@ export default function ContactMe(){
                             <option>3D modelling in Blender</option>
                         </select>
                     </label>
+                    
+                    {/*Message input*/}
                     <label htmlFor="message" className="contact--label">
                         <span className="text-md">Message</span>
                         <input 
@@ -66,6 +78,8 @@ export default function ContactMe(){
                         placeholder="Type your message here..."
                         />
                     </label>
+
+                    {/*Checkbox for terms acceptance*/}
                     <label label className="checkbox--label" htmlFor="checkbox--label">
                         <input type="checkbox" required name="checkbox" id="checkbox" />
                         <span className="text-sm">I accept the terms</span>
