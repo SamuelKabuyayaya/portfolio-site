@@ -416,27 +416,37 @@ h3 {
 
 .projects--section--container{
     display: flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
-    gap: 42.6;
+    gap: 42px;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 .projects--section--img{
-    border-radius: 8px;
-    width: 100%;
+    border: 2px solid cvar(--primary);
+    border-radius: 12px;
+    padding: 8px;
+    background: #f9f9f9;
+    width: 80%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .projects--section--img > img{
     width: 100%;
+    display: block;
+    border-radius: 8px;
 }
 
 .projects--section--card{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 32px;
-    flex: 1 0 0;
+    flex: 1 0 300px;
     background: #fff;
     box-shadow: 0 0 32 0 rgba(0, 0, 0, 0.15);
     cursor: pointer;
@@ -448,8 +458,8 @@ h3 {
     display: flex;
     padding: 32px;
     flex-direction: column;
-    align-items: flex-start;
-    gap: 32px;
+    align-items: center;
+    gap: 16px;
     align-self: stretch;
     border: 1.5px solid var(--primary);
     border-radius: 12px;
@@ -463,6 +473,10 @@ h3 {
 
 .projects--section--card:hover path{
     stroke: #006b6a;
+}
+
+.projects--section--img:hover{
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
 }
 /*!!!!!!!!!!PROJECT SECTION ENDS HERE!!!!!!!!!!*/
 

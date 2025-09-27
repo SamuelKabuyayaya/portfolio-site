@@ -6,7 +6,7 @@ function Navbar(){
         <nav className = "navbar">
         <div>
             {/*Logo in task Bar */}
-        <img src="/img/Centennial_College_Logo.jpg" alt="Logo" />
+        <img src="/img/Logo.jpg" alt="Logo" />
         </div>
        
         {/*Navbar Links*/}

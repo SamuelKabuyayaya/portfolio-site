@@ -2,25 +2,25 @@
     "skills":[
         {
             "id": "1",
-            "src": "/img/Github Logo.png",
+            "src": "/img/CSharp Logo.png",
             "title": "C#",
             "description": "I have a strong foundation in C# programming, which allows me to create console applications and Windows Forms projects. Through my coursework and practice, I’ve become comfortable with the structure of C# and applying it in small, functional programs."
         },
         {
             "id": "2",
-            "src": "/img/Github Logo.png",
+            "src": "/img/JavaScript.png",
             "title": "JavaScript",
             "description": "I have developed a good knowledge of JavaScript, mainly focusing on making console programs and experimenting with basic logic. JavaScript has given me the opportunity to understand how programming works in a web environment. I really enjoy using it daily."
         },
         {
             "id": "3",
-            "src": "/img/Github Logo.png",
+            "src": "/img/Python Logo.png",
             "title": "Python",
             "description": "I also have solid knowledge of Python, using it to write console-based programs and explore problem-solving. Python’s simplicity has allowed me to quickly test new concepts and practice programming logic. Python is a very good language for machine learning."
         },
         {
             "id": "4",
-            "src": "/img/Github Logo.png",
+            "src": "/img/Blender Logo.png",
             "title": "3D Modelling",
             "description": "I have spent over 70 hours using Blender, where I’ve learned the fundamentals of 3D modeling. My free time projects include creating simple 3D shapes, objects, and experimenting with textures. I love exploring this field and making 3D characters and rig them."
         }

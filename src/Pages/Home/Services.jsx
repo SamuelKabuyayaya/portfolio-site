@@ -18,7 +18,7 @@ export default function Services() {
                 <div className="services--section--card">
                     {/*Service icon*/}
                     <div className="services--section--icon">
-                        <img src="/img/Github Logo.png" alt="Frontend Development" />
+                        <img src="/img/Basic Programming.png" alt="Basic Programming" />
                     </div>
                     {/*Service title*/}
                     <h3 className="services--section--title">Basic Programming Projects</h3>
@@ -32,7 +32,7 @@ export default function Services() {
                 <div className="services--section--card">
                     {/*Service icon*/}
                     <div className="services--section--icon">
-                        <img src="/img/Github Logo.png" alt="Frontend Development" />
+                        <img src="/img/Web Development.png" alt="Web Development" />
                     </div>
                     {/*Service title*/}
                     <h3 className="services--section--title">Web Development Basics</h3>
@@ -46,7 +46,7 @@ export default function Services() {
                 <div className="services--section--card">
                     {/*Service icon*/}
                     <div className="services--section--icon">
-                        <img src="/img/Github Logo.png" alt="Frontend Development" />
+                        <img src="/img/3D modelling.png" alt="3D modelling" />
                     </div>
                      {/*Service title*/}
                     <h3 className="services--section--title">3D modelling in Blender</h3>
