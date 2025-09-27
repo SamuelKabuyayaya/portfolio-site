@@ -26,6 +26,15 @@ export default function AboutMe() {
                     <p className="hero--section--description">
                         My ultimate goal is to experiment with knowledge I have and improve as time goes on. In the future, I want to build many different things and learning how to code will be very handy
                     </p>
+
+                    {/*Download resume button*/}
+                    <a 
+                    href="/Resume.pdf"
+                    download
+                    className="btn btn--resume--download"
+                    >
+                        Download Resume
+                    </a>
                 </div>
             </div>
         </section>
