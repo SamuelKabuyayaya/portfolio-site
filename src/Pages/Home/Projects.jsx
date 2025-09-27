@@ -5,8 +5,8 @@ export default function Projects(){
         <section className="projects--section" id="MyProjects">
             <div className="projects--container-box">
             <div className="projects--container">
-            <h2 className="section--heading">My Projects</h2>
-            <p className="sub--title"> Recent Projects</p>
+            <h2 className="projects--section--heading">My Projects</h2>
+            <p className="section--title"> Recent Projects</p>
             </div>
             <div>
                 <a 

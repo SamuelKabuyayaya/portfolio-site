@@ -6,15 +6,15 @@ export default function AboutMe() {
             </div>
             <div className="hero-section--content--box about--section--box">
                 <div className="hero-section--content">
+                    <h1 className="about-section--heading">Who am I?</h1>
                     <p className="section--title">About me</p>
-                    <h1 className="skills-section--heading">Who am I?</h1>
                     <p className="hero--section--description">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Cumque unde, sunt id quia, consequatur ipsam assumenda aspernatur 
                         laborum obcaecati magnam pariatur cum culpa consectetur necessitatibus, 
                         reiciendis corporis! Nesciunt, quidem culpa.
                     </p>
-                    <p className="hero--section-description">
+                    <p className="hero--section--description">
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                         Ratione dolores rem aperiam sit labore laboriosam deserunt sunt nulla. 
                         Nam, esse maxime necessitatibus illo libero deserunt adipisci? Voluptatibus repellat dolores optio.
