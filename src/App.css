@@ -399,7 +399,7 @@ h3 {
     width: 100%;
 }
 
-.portfolio--section--card{
+.projects--section--card{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -495,6 +495,72 @@ h3 {
 
 }
 
+/*Services Section Starts Here*/
+
+.services--section{
+    display: flex;
+    flex-direction: column;
+    padding: 80px 60px;
+    gap: 64px;
+    background-color: var(--bg-shade);
+    align-items: left;
+    text-align: center;
+}
+
+.services--section--heading{
+    color: var(--heading-color);
+    font-size: 40;
+    font-weight: 700;
+    line-height: 2px;
+    text-align: left;
+    margin-bottom: 100px;
+}
+
+
+.services--section--container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-items: center;
+}
+
+.services--section--card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding: 32px;
+    border-radius: 12px;
+    background: var(--white);
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+}
+
+.services--section--card:hover{
+    border-bottom: 4px solid var(--primary);
+}
+
+.services--section--icon img{
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+}
+
+.services--section--title{
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--heading-color);
+}
+
+.services--section--description{
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--darkblue);
+}
+
+
 /*Contact section starts here*/
 .contact--section{
     display: flex;
@@ -514,7 +580,7 @@ h3 {
     row-gap: 32px;
 }
 
-.container{
+.contact--container{
     display: grid;
     grid-template-columns: repeat(2, auto);
     column-gap: 32px;
@@ -575,5 +641,5 @@ input[type="checkbox"]{
 }
 /*Contact section ends here*/
 
-/*Footer start*/
+
 

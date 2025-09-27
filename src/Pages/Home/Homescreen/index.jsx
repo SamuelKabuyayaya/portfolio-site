@@ -3,6 +3,7 @@ import AboutMe from "../AboutMe";
 import MySkills from "../MySkills";
 import Projects from "../Projects";
 import Education from "../Education";
+import Services from "../Services";
 import ContactMe from "../ContactMe";
 
 
@@ -14,6 +15,7 @@ export default function Home () {
            <MySkills/>
            <Projects/>
            <Education/>
+           <Services/>
            <ContactMe/>
         </>
     )

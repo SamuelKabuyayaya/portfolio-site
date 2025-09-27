@@ -120,7 +120,22 @@ function Navbar(){
                 Education
                 </Link>
             </li>
+            <li>
+                <Link 
+                onClick={closeMenu}
+                activeClass="navbar--active--content"
+                spy={true}
+                smooth={true}
+                offcet={-70}
+                duration={500}
+                to="services--section"
+                className="navbar--content"
+                >
+                Services
+                </Link>
+            </li>
         </ul>
+        
 
         </div>
         <Link
